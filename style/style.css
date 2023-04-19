@@ -4,6 +4,7 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     background: #0C1417;
+    overflow-x: hidden;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -80,7 +82,7 @@ h2 {
 }
 
 .main-button {
-    background: url(/pic/button.png) transparent;
+    background: url(../pic/button.png) transparent;
     border: none;
     width: 290px;
     height: 68px;
@@ -135,16 +137,16 @@ h3 {
 }
 
 .life-btn{
-    background: url(/pic/life-button.png);
+    background: url(../pic/life-button.png) no-repeat;
     width: 280px;
-    height: 60px;
+    height: 68px;
     border: none;
     margin-top: 20px;
     transition: 0.5s;
 }
 
 .life-btn:hover {
-    background: url(/pic/button.png);
+    background: url(../pic/button.png) no-repeat;
     height: 68px;
     transition: 0.5s;
     width: 290px;
@@ -195,3 +197,59 @@ h3 {
     color: #FFFFFF;
     width: 232px;
 }
+
+
+.menu-btn {
+    display: none;
+    background: url(../pic/menu.png);
+    background-color: transparent;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 20px;
+}
+
+.menu-btn-hid {
+    background-image: url(/pic/close.png);
+}
+
+.menu li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 150px;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    transition: 1s;
+}
+
+.menu-hidden {
+    left: 0;
+    transition: 1s;
+    position: absolute;
+    width: 100%;
+}
+
+.img-hidden {
+    display: none;
+}
+
+.imf-vis {
+    display: block;
+}
+

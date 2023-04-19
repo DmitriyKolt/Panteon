@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panteon</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css">
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/scroll.js" defer></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
         </style>
@@ -24,20 +27,36 @@
                     <li>Контакты</li>
                 </ul>
                 <div class="number">+7 (496) 416-19-16</div>
+                <button class="menu-btn">
+                </button>
             </nav>
+            <div class="menu">
+                <div class="menu-wrapper">
+                    <div>
+                        <li>Тренеры</li>
+                        <li>Контакты</li>
+                        <li>+7 (496) 416-19-16</li>
+                    </div>
+                    <div>
+                        <li>О нас</li>
+                        <li>Галерея</li>
+                        <li>Абонементы</li>
+                    </div>
+                </div>
+            </div>
             <div class="header-info">
                 <h1>Фитнес клуб Пантеон</h1>
                 <h2>Лучше нас только боги</h2>
                 <button class="main-button"></button>
             </div>
             <div class="contact">
-                <a href="#"><img src="/pic/vk.png" alt="vk"></a>
-                <a href="#"><img src="/pic/inst.png" alt="inst"></a>
+                <a href="#"><img src="pic/vk.png" alt="vk"></a>
+                <a href="#"><img src="pic/inst.png" alt="inst"></a>
             </div>
-            <button class="btn-down"><img src="pic/down.png" alt="down"></button>
+            <button class="btn-down" ><a href="#down"><img src="pic/down.png" alt="down"></a></button>
     </header>
 
-    <div class="new-life">
+    <div class="new-life" id="down">
         <div class="new-life-wrapper">
             <div class="new-life-img">
                 <img src="pic/pic1.png" alt="1" width="308" height="432">
