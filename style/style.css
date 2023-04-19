@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    background: #0C1417;
+}
+
+header {
+    max-width: 1920px;
+    min-height: 100vh;
+    background: url(../pic/sticks.png), url(../pic/dark.png), url(../pic/back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline;
+    margin-left: 42px;
+}
+
+ul {
+    padding-top: 65px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 581px;
+    margin: 0;
+}
+li {
+    color: #FFFFFF;
+    transition: 1s;
+}
+
+li:hover {
+    color: #F7931E;
+    transition: 1s;
+}
+
+.number {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline;
+    padding-top: 65px;
+    margin-right: 62px;
+}
+
+.header-info {
+    width: 762px;
+    margin: 233px auto 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-button {
+    background: url(/pic/button.png) transparent;
+    border: none;
+    width: 290px;
+    height: 68px;
+    margin-left: 236px;
+    margin-top: 35px;
+}
+
+
+.contact {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 63px 57px 0;
+}
+
+.btn-down {
+    background: transparent;
+    border: none;
+    position: absolute;
+    right:50%;
+    bottom: 0;
+    margin-bottom: 62px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.new-life h3 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.new-life {
+    background: #0C1417;
+    padding-top: 100px;
+}
+
+.new-life-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 451px;
+    margin-bottom: 20px;
+}
+
+.life-btn{
+    background: url(/pic/life-button.png);
+    width: 280px;
+    height: 60px;
+    border: none;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.life-btn:hover {
+    background: url(/pic/button.png);
+    height: 68px;
+    transition: 0.5s;
+    width: 290px;
+}
+
+.new-life-img {
+    display: flex;
+    gap: 30px;
+    width: 645px;
+}
+
+.new-life-img img:last-child {
+    margin-top: 40px;
+}
+
+.new-life-wrapper {
+    display: flex;
+    gap: 76px;
+    width: 1172px;
+    margin: 0 auto;
+}
+
+.new-life-quality {
+    width: 1320px;
+    margin: 100px auto;
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.new-life-quality-box {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    transition: 1s;
+}
+
+.new-life-quality-box:hover {
+    border-bottom: 2px solid #F7931E;
+    transition: 1s;
+}
+
+.new-life-quality-box p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 232px;
+}
