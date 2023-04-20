@@ -224,15 +224,20 @@ h3 {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    margin-bottom: 15px;
 }
 
 .menu-wrapper {
     display: flex;
     justify-content: space-around;
     background-color: black;
-    height: 150px;
+    height: 130px;
     align-items: center;
+}
+
+.menu-wrapper-box {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 }
 
 .menu {

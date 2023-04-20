@@ -77,4 +77,8 @@
     .logo {
         margin-left: 0;
     }
+
+    .header-info {
+        margin: 10% auto 0;
+    }
 }
