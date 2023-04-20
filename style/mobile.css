@@ -74,7 +74,7 @@
         display: block;
     }
 
-    .menu-btn {
-        display: block;
+    .logo {
+        margin-left: 0;
     }
 }

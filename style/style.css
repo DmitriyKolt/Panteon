@@ -7,6 +7,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 header {
     max-width: 1920px;
     min-height: 100vh;
@@ -62,7 +66,7 @@ li:hover {
 
 .header-info {
     width: 762px;
-    margin: 233px auto 0;
+    margin: 200px auto 0;
 }
 
 h1 {
@@ -204,14 +208,14 @@ h3 {
     background: url(../pic/menu.png);
     background-color: transparent;
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: none;
     margin: 20px;
 }
 
 .menu-btn-hid {
-    background-image: url(/pic/close.png);
+    background-image: url(../pic/close.png);
 }
 
 .menu li {

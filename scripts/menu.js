@@ -1,22 +1,18 @@
-const btnMenu = document.querySelector('.menu-btn');
+const hamBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 
-function openMenu() {
-    menu.classList.add('menu-hidden')
+function toggleMenu() {
+	menu.classList.toggle('menu-hidden');
+	hamBtn.classList.toggle('menu-btn-hid');
 }
 
 function closeMenu() {
-    menu.classList.remove('menu-hidden')
+	menu.classList.remove('menu-hidden');
+	hamBtn.classList.remove('menu-btn-hid');
 }
 
-btnMenu.addEventListener('click', openMenu);
-
+hamBtn.addEventListener('click', toggleMenu);
 document.body.addEventListener('click', (ev) => {
 	let target = ev.target;
-	if(target != btnMenu) closeMenu();
-})
-
-btnMenu.addEventListener('click', (ev) => {
-	let target = ev.target;
-	if(target != btnMenu) closeMenu();
+	if(target != hamBtn) closeMenu();
 })
